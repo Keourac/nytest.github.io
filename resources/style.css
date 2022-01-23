@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    color: rgb(53, 53, 53);
-    font-family: 'Nunito', sans-serif;
+    color: rgb(74 74 74);
+    font-family: 'Avenir LT Std';
 }
 
 #desktopheader,
@@ -10,7 +10,6 @@ body {
     display: flex;
     height: 64px;
     width: 100%;
-    align-content: center;
     align-items: center;
 }
 
@@ -52,32 +51,39 @@ li {
 
 h1 {
     margin: 0;
-    font-size: xx-large;
+    font-size: 32px;
     font-weight: 800;
-    font-style: bold;
-    letter-spacing: .08rem;
-    padding-bottom: 32px;
+    letter-spacing: .05rem;
+    padding-bottom: 20px;
 }
 
 h4 {
     margin: 0;
-    font-size: x-large;
+    font-size: 24px;
     font-weight: 800;
-    letter-spacing: .08rem;
-    padding-bottom: 24px;
+    letter-spacing: .05rem;
+}
+
+#logo-h4 {
+    padding-top: 6px;
 }
 
 h5 {
     margin: 0;
-    font-size: x-large;
-    font-weight: 400;
-    color: rgb(172, 172, 172);
-    letter-spacing: .08rem;
+    font-size: 24px;
+    color: rgb(216 216 216);
+    letter-spacing: .05rem;
+}
+
+#logo-h5 {
+    padding-top: 6px;
 }
 
 .sectionbox-gray {
     display: flex;
-    background-color: rgb(172, 172, 172);
+    justify-content: flex-start;
+    background-color: rgb(216 216 216);
+    width: 100%;
     margin: 0;
 }
 
@@ -85,4 +91,22 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+button {
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(74 74 74);
+    color: white;
+    margin-top: 24px;
+    width: 100%;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
