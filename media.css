@@ -9,13 +9,13 @@
         }
             .sectionbox-pic {
                 width: 100%;
+                margin: 0;
             }
-                .text-with-button {
-                    margin: 32px 16px 32px 16px;
+                #right-container {
+                    position: relative;
+                    margin-top: 32px;
+                    margin-bottom: 32px;
                 }
-                    button {
-                        width: 100%;
-                    }
                         .section-practice-desktop {
                             display: none;
                         }
@@ -31,13 +31,8 @@
                 .sectionbox-pic {
                     width: 60%;
                 }
-                    .text-with-button {
-                        margin-left: 50px;
-                        margin-right: 50px;
+                    .section-practice-mobile {
+                        display: none;
                     }
-                        .section-practice-mobile,
-                        .small-section {
-                            display: none;
-                        }
 
 }

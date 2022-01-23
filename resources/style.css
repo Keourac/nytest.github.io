@@ -12,6 +12,9 @@ body {
     height: 64px;
     width: 100%;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 nav {
@@ -93,18 +96,30 @@ p {
 }
 
 .sectionbox-pic {
-    padding: 32px 24px 32px 24px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+#right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 32px 24px 32px 24px;
 }
 
 .text-with-button {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 button {
     text-align: center;
+    width: 100%;
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -118,16 +133,17 @@ button {
     padding-top: 32px;
 }
 
-.section-practice {
+.section-practice-desktop {
     display: flex;
     flex-direction: row;
     width: 100%;;
 }
 
 .section-left {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 70%;
-    margin: 32px 0 32px 24px;
+    margin: 32px 24px 32px 24px;
 }
 
 .section-left-pic {
@@ -136,33 +152,67 @@ button {
 }
 
 .section-right {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 40%;
-    margin: 16px 24px 32px 24px;
+    border-left: .5px solid gray;
+    margin: 32px 16px 32px 16px;
 }
 
-.small-section-right {
+#small-section-right-1 {
     display: flex;
     gap: 16px;
-    padding: 16px 0 16px 16px;
+    padding: 0 0 16px 16px;
 }
 
-.small-section-picture {
-    width: 35%;
-    height: auto;
-}
+    #small-section-right-2 {
+        display: flex;
+        gap: 16px;
+        padding: 16px;
+    }
 
-.small-section-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-    width: 65%;
-}
+        #small-section-right-3 {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+            background-color: rgb(216 216 216);
+        }
+
+            .small-section-picture {
+                width: 35%;
+                height: auto;
+            }
+
+                .small-section-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 8px;
+                    width: 65%;
+                }
 
 a {
     color: rgb(0, 119, 255);
     font-size: 15px;
     cursor: pointer;
+}
+
+.section-practice-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 16px 16px 32px 16px;
+}
+
+.small-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-mobile-picture {
+    width: 100%;
+}
+
+#mobiletext {
+    width: 92%;
+    padding: 32px 16px 64px 16px;
 }
