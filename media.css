@@ -16,6 +16,9 @@
                     button {
                         width: 100%;
                     }
+                        .section-practice-desktop {
+                            display: none;
+                        }
 }
 
 @media only screen and (min-width: 800px) {
@@ -24,15 +27,17 @@
     }
         .sectionbox-gray {
         flex-direction: row;
-        padding: 32px 24px 32px 24px;
         }
-            .sectionbox-pic {
-            width: 60%;
-            }
-                .text-with-button {
-                    margin-left: 50px;
-                    margin-right: 50px;
-                    width: 100%;
+                .sectionbox-pic {
+                    width: 60%;
                 }
+                    .text-with-button {
+                        margin-left: 50px;
+                        margin-right: 50px;
+                    }
+                        .section-practice-mobile,
+                        .small-section {
+                            display: none;
+                        }
 
 }
