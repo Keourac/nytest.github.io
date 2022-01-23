@@ -1,0 +1,30 @@
+@media only screen and (max-width: 750px) {
+    #desktopheader {
+        display: none;
+    }
+        .sectionbox-gray {
+            flex-direction: column;
+            padding: 0;
+        }
+            .sectionbox-pic {
+                width: 100%;
+            }
+                .text-with-button {
+                    margin: 32px 16px 32px 16px;
+                }
+}
+
+@media only screen and (min-width: 750px) {
+    #mobilheader {
+        display: none;
+    }
+        .sectionbox-gray {
+        flex-direction: row;
+        padding: 32px 24px 32px 24px;
+        gap: 24px;
+        }
+            .sectionbox-pic {
+            width: 60%;
+            }
+
+}
