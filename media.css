@@ -5,20 +5,22 @@
         .sectionbox-gray {
             flex-direction: column;
             padding: 0;
-            width: 100%;
         }
-            .sectionbox-pic {
-                width: 100%;
-                margin: 0;
-            }
-                #right-container {
-                    position: relative;
-                    margin-top: 32px;
-                    margin-bottom: 32px;
+                .sectionbox-pic {
+                    width: 100%;
+                    margin: 0;
                 }
-                        .section-practice-desktop {
-                            display: none;
-                        }
+                button {
+                    width: 100%;
+                }
+                    #right-container {
+                        position: relative;
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                    }
+                            .section-practice-desktop {
+                                display: none;
+                            }
 }
 
 @media only screen and (min-width: 800px) {
@@ -31,8 +33,11 @@
                 .sectionbox-pic {
                     width: 60%;
                 }
-                    .section-practice-mobile {
-                        display: none;
+                    button {
+                        max-width: 100%;
                     }
+                        .section-practice-mobile {
+                            display: none;
+                        }
 
 }

@@ -97,29 +97,18 @@ p {
 
 .sectionbox-pic {
     display: flex;
-    justify-content: center;
     width: 60%;
-    margin: 32px 24px 32px 24px;
-}
-
-#right-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
     margin: 32px 24px 32px 24px;
 }
 
 .text-with-button {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin: 32px 24px 32px 24px;
 }
 
 button {
-    text-align: center;
-    width: 100%;
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -142,26 +131,26 @@ button {
 .section-left {
     display: flex;
     flex-direction: column;
-    width: 70%;
     margin: 32px 24px 32px 24px;
+    width: 60%;
 }
 
 .section-left-pic {
-    width: 100%;
     padding-bottom: 32px;
 }
 
 .section-right {
-    display: block;
-    width: 40%;
-    border-left: .5px solid gray;
-    margin: 32px 16px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    border-left: .5px solid rgb(216 216 216);
+    margin: 0;
 }
 
 #small-section-right-1 {
     display: flex;
     gap: 16px;
-    padding: 0 0 16px 16px;
+    padding: 32px 16px 16px 16px;
+
 }
 
     #small-section-right-2 {
@@ -187,7 +176,6 @@ button {
                     flex-direction: column;
                     justify-content: center;
                     gap: 8px;
-                    width: 65%;
                 }
 
 a {
@@ -203,16 +191,16 @@ a {
     margin: 16px 16px 32px 16px;
 }
 
-.small-section {
-    display: flex;
-    flex-direction: column;
-}
+    .small-section {
+        display: flex;
+        flex-direction: column;
+    }
 
-.small-mobile-picture {
-    width: 100%;
-}
+        .small-mobile-picture {
+            width: 100%;
+        }
 
-#mobiletext {
-    width: 92%;
-    padding: 32px 16px 64px 16px;
-}
+        #mobiletext {
+            width: 92%;
+            padding: 32px 16px 64px 16px;
+        }
