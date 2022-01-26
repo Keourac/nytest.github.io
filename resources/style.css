@@ -20,7 +20,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 32px;
     margin-right: 24px;
 }
 
@@ -106,6 +106,7 @@ p {
     justify-content: center;
     flex-direction: column;
     margin: 32px 24px 32px 24px;
+    width: 40%;
 }
 
 button {
@@ -143,6 +144,7 @@ button {
     display: flex;
     flex-direction: column;
     border-left: .5px solid rgb(216 216 216);
+    width: 40%;
     margin: 0;
 }
 
@@ -186,14 +188,15 @@ a {
 
 .section-practice-mobile {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 16px 16px 32px 16px;
+    justify-content : center;
+    margin: 32px 16px 32px 16px;
 }
 
     .small-section {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
         .small-mobile-picture {
@@ -201,6 +204,149 @@ a {
         }
 
         #mobiletext {
-            width: 92%;
-            padding: 32px 16px 64px 16px;
+            padding: 32px 16px 32px 16px;
         }
+
+#section-3 {
+    padding: 32px 72px 32px 72px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eaebec;
+}
+
+    #pictures-with-comment {
+        margin: 0 0 32px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+        .learning-small-section {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 30%;
+            margin: 0;
+        }
+
+            #learning-pictures {
+                height: auto;
+            }
+
+                .picturetext {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    padding: 16px 16px 24px 16px;
+                    gap: 8px;
+                    background-color: white;
+                    margin: 0;
+                    color: grey;
+                }
+
+                    .picture-header {
+                        font-weight: 600;
+                        margin: 10px 0 10px 0;
+                        color: rgb(88, 88, 88);
+                    }
+
+.learning-mobile-boxes {
+    background-color: rgb(216 216 216);
+    width: 100%;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 24px 16px 24px 16px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: left;
+    color: rgb(105, 105, 105);
+}
+
+#learning-objects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+#section-4 {
+    text-align: center;
+}
+
+#mobile-4 {
+    padding: 32px 0 24px 0;
+    border-top: .5px solid rgb(216 216 216);
+    border-bottom: .5px solid rgb(216 216 216);
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#thesis-desktop-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    border-bottom: .5px solid rgb(216 216 216);
+}
+
+#thesis-header {
+    padding-bottom: 0;
+}
+
+.thesis-section-left {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 24px 32px 24px;
+    width: 75%;
+}
+
+#thesis-desktop-video {
+    width: 100%;
+}
+
+#headertext {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 0 8px 0;
+}
+
+#thesis-section-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+    #small-group-1 {
+        display: flex;
+        gap: 16px;
+        padding: 16px;
+        background-color: #eaebec;
+    }
+
+        #small-group-2 {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+        }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 32px 24px;
+    font-size: .8rem;
+    color: gray;
+    gap: 10px;
+}
+
+    #footerlinks {
+        display: flex;
+        gap: 8px;
+        cursor: pointer;
+    }
