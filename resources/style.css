@@ -239,10 +239,10 @@ a {
                     display: flex;
                     flex-direction: column;
                     text-align: left;
-                    padding: 16px 16px 24px 16px;
+                    padding: 16px 16px 0 16px;
                     gap: 8px;
                     background-color: white;
-                    margin: 0;
+                    height: 11rem;
                     color: grey;
                 }
 
